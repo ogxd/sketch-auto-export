@@ -1,7 +1,7 @@
 {
   "name": "sketch-auto-export",
   "description": "Auto export from Sketch",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "engines": {
     "sketch": ">=49.0"
   },
@@ -25,6 +25,7 @@
   },
   "author": "Olivier Giniaux <oginiaux@gmail.com>",
   "dependencies": {
+    "@skpm/dialog": "^0.4.2",
     "sketch-plugin-log": "^1.1.0"
   }
 }

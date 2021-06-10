@@ -3,15 +3,15 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "sketch-auto-export.my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Exporter",
+      "identifier": "sketch-auto-export.export-identifier",
+      "script": "./export.js"
     }
   ],
   "menu": {
     "title": "sketch-auto-export",
     "items": [
-      "sketch-auto-export.my-command-identifier"
+      "sketch-auto-export.export-identifier"
     ]
   }
 }
