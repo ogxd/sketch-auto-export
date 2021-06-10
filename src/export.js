@@ -23,6 +23,7 @@ export default function() {
   for (var p of k) {
     //console.log(JSON.stringify(p, null, 4));
     sketch.export(p, options)
+    NSFileManager.defaultManager().moveItemAtPath_toPath_error(output + p.name + '.jpg', output + p.name + '_x1.jpg', nil)
     NSFileManager.defaultManager().moveItemAtPath_toPath_error(output + p.name + '@2x.jpg', output + p.name + '_x2.jpg', nil)
   }
 
